@@ -7,11 +7,11 @@
     font-weight: bold;
 }
 
-.btn-light:hover {
+.nav-item > .btn-light:hover {
     color: maroon !important
 }
 
-.btn {
+.nav-item > .btn {
     background-color: #fff !important;
     background-color: rgba(255,255,255,0.7) !important;
     font-weight: bold !important;
@@ -49,4 +49,21 @@
 
 .body-carousel {
     background-color:aliceblue
+}
+
+ol > .list-group {
+    display: flex !important;
+    flex-direction: row !important;
+    /* flex-wrap: wrap; */
+    /* // gap: 3rem; // an alternative to the margin in the <li> element */
+    list-style-type: decimal !important;
+    list-style-position: inside !important;
+}
+
+ol > .list-group-item {
+    column-span: 4 !important;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
 }
