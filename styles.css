@@ -7,6 +7,25 @@
     font-weight: bold;
 }
 
+.navbar {
+    background: url("./images/indy-panorama.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.btn-light:hover {
+    color: maroon !important
+}
+
+.btn {
+    background-color: #fff !important;
+    background-color: rgba(255,255,255,0.8) !important;
+    font-weight: bold !important;
+}
+
 .card {
     justify-content: center;
 }

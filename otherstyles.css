@@ -7,9 +7,14 @@
     font-weight: bold;
 }
 
+.btn-light:hover {
+    color: maroon !important
+}
+
 .btn {
-    background-color: white;
-    justify-content: center;
+    background-color: #fff !important;
+    background-color: rgba(255,255,255,0.7) !important;
+    font-weight: bold !important;
 }
 
 .card {

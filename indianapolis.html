@@ -15,22 +15,39 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         
         <header>
-            <nav class="navbar bg-body-tertiary d-block-flex">
-              <div class="container-fluid">
-                
-                <a class="navbar-brand mb-0 mt-0 py-3 hv" href="./indiana.html">
-                  <img src="./images/seal.svg" alt="Indiana State seal" height="50">
-                  <span class="navbar-span">INDIANA</span>
-                </a>
-                <a class="btn btn-outline-primary btn-lg px-4" href="./indianapolis.html" role="button">Indianapolis</a>
-                <a class="btn btn-success btn-lg px-4" href="./fortwayne.html" role="button">Fort Wayne</a>
-                <a class="btn btn-success btn-lg px-4" href="./carmel.html" role="button">Carmel</a>
-            
-                <a class="btn btn-primary btn-lg px-4" href="./history.html" role="button">History</a>
-                <a class="btn btn-primary btn-lg px-4" href="./travel.html" role="button">Travel</a>
-                <a class="btn btn-primary btn-lg px-4" href="./contact.html" role="button">Contact Us</a>
-              </div>
-            </nav>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand py-3 hv" href="./indiana.html">
+                        <img src="./images/seal.svg" alt="Indiana State seal" height="50">
+                        <span class="navbar-span">INDIANA</span>
+                      </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="btn btn-light btn-sm px-4 mx-2 my-1 nav-link active" aria-current="page" href="./indianapolis.html" role="button">Indianapolis</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-light btn-sm px-4 mx-2 my-1 nav-link" href="./fortwayne.html" role="button">Fort Wayne</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-light btn-sm px-4 mx-2 my-1 nav-link" href="./carmel.html" role="button">Carmel</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-light btn-sm px-4 mx-2 my-1 nav-link" href="./history.html" role="button">History</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-light btn-sm px-4 mx-2 my-1 nav-link" href="./travel.html" role="button">Travel</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="btn btn-light btn-sm px-4 mx-2 my-1 nav-link" href="./contact.html" role="button">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
           </header>
     </head>
     <body>
@@ -52,7 +69,7 @@
                     </p>
                   </div>
                 </div>
-                <div class="split d-md-flex row px-4 py-4">
+                <div class="split d-lg-flex row px-4 py-4">
                   <div class="col-6">
                     <img src="./images/brickyard.jpg" class="img-fluid" alt="golf course">
                   </div>
