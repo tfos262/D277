@@ -7,6 +7,11 @@
     font-weight: bold;
 }
 
+.btn {
+    background-color: white;
+    justify-content: center;
+}
+
 .card {
     justify-content: center;
 }
@@ -16,16 +21,23 @@
     overflow: hidden;
 }
 
+
 /* this allows the nav-bar brand to remain visible when the img horizon moves up on smaller screens */
 @media (max-width: 991.98px) {
      .container-fluid {
         background-color: #fff;
         background-color: rgba(255,255,255,0.5);
      }
-
+     .split {
+        column-span: 3;
+     }
 }
 
-aside {
+#body-paragraph{
+    color: rgb(21, 34, 21);
+}
+
+.aside {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
 }
@@ -33,3 +45,4 @@ aside {
 .body-carousel {
     background-color:aliceblue
 }
+
