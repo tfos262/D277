@@ -59,23 +59,24 @@
                 <h1 class="display-5 fw-bold text-body-emphasis"><img src="./images/icons8-indiana-50.png">Contact Us</h1>
             </div>
             <form>
-                <div class="form-class mx-5">
+                <div class="contactForm form-class mx-5">
                     <div class="mb-3">
                         <label for="firstName" class="form-label">First Name</label>
-                        <input type="name" class="form-control mb-3" id="firstName" aria-describedby="nameHelp">
+                        <input type="name" class="form-control mb-3" id="firstName" placeholder="John/Jane" required>
                         <label for="lastName" class="form-label">Last Name</label>
-                        <input type="name" class="form-control mb-3" id="lastName" aria-describedby="nameHelp">
-                        <label for="InputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                        <input type="name" class="form-control mb-3" id="lastName" placeholder="Doe" required>
+
+                        <label for="InputEmail1" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="first-email-help" placeholder="example@wgu.edu" required>
                         <div id="emailHelp" class="form-text mb-3">Please provide an email in order to contact you in response to your message</div>
+
                         <label for="InputEmail2" class="form-label">Verify Email address</label>
-                        <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+                        <input type="email" class="form-control" id="InputEmail2" aria-describedby="second-email-help" placeholder="example@wgu.edu">
                         <div id="emailHelp" class="form-text mb-3">Please verify your email address</div>
-                        </div>
-                        <div class="mb-3">
+
                         <label for="FormControlTextarea1" class="form-label">Message</label>
-                        <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
-                        </div>
+                        <textarea class="form-control" id="FormControlTextarea1" rows="3" placeholder="Message body" required></textarea>
+
             
                         <!-- <div class="form-check">
                             <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
@@ -83,18 +84,15 @@
                             Default checkbox
                             </label>
                         </div> -->
-                        <div class="mb-3 form-check">
+                        <div class="my-3 form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
                             <label class="form-check-label" for="exampleCheck1"><i>Stay up-to-date with the Indiana e-Newsletter</i></label>
                         </div>
                         <button type="submit" class="btn btn-primary my-5">Submit</button>
                 </div>
-    
               </form>
         </section>
-
-       
-        <script src="" async defer></script>
+        <script src="./index.js" async defer></script>
     </body>
     <div class="container-footer">
         <footer class="py-3 my-4">
