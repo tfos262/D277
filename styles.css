@@ -37,7 +37,7 @@ aside {
 /* leave space for the footer to remain spaced onto the bottom */
 body {
     position: relative;
-    min-height: 85vh;
+    min-height: 100vh;
 }
 
 .reftable {
