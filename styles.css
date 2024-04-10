@@ -7,23 +7,68 @@
     font-weight: bold;
 }
 
-.navbar {
-    background: url("./images/indy-panorama.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-y: 10%;
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.nav-item > .btn-light:hover {
+    color: maroon !important
 }
 
-.btn-light:hover {
-    color: maroon !important
+.nav-item > .btn {
+    background-color: #fff !important;
+    background-color: rgba(255,255,255,0.7) !important;
+    font-weight: bold !important;
+}
+
+/* this allows the "INDIANA" nav-bar brand to remain visible when the img horizon moves up on smaller screens */
+@media (max-width: 991.98px) {
+    .container-fluid {
+       background-color: #fff;
+       background-color: rgba(255,255,255,0.5);
+    }
+    .split {
+       column-span: 3;
+    }
+}
+
+aside {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    float: left;
+}
+
+/* leave space for the footer to remain spaced onto the bottom */
+body {
+    position: relative;
+    min-height: 85vh;
+}
+
+.reftable {
+    table-layout: fixed;
+    width: auto;
+}
+
+.reftable td {
+    overflow: hidden;
+    white-space: wrap;
+    text-overflow: ellipsis;
 }
 
 .btn {
     background-color: #fff !important;
     background-color: rgba(255,255,255,0.8) !important;
     font-weight: bold !important;
+}
+
+.btn-light:hover {
+    color: maroon !important;
+}
+
+.btn-outline-success:hover  {
+    color: black !important;
+    background-color: lightseagreen !important;
+}
+
+.btn-outline-primary:hover {
+    color: black !important;
+    background-color: lightblue !important;
 }
 
 .card {
@@ -35,20 +80,45 @@
     overflow: hidden;
 }
 
-/* this allows the nav-bar brand to remain visible when the img horizon moves up on smaller screens */
-@media (max-width: 991.98px) {
-     .container-fluid {
-        background-color: #fff;
-        background-color: rgba(255,255,255,0.5);
-     }
-
+.slideshow-div {
+    float: right;
 }
 
-aside {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-}
 
 .body-carousel {
     background-color:aliceblue
+}
+
+.container-footer { 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
+}
+
+.history {
+    border-radius: 10px;
+}
+
+#body-paragraph{
+    color: rgb(21, 34, 21);
+}
+
+ol > .list-group {
+    display: flex !important;
+    flex-direction: row !important;
+    list-style-type: decimal !important;
+    list-style-position: inside !important;
+}
+
+ol > .list-group-item {
+    column-span: 4 !important;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+::placeholder {
+    opacity: 0.5 !important;
 }
